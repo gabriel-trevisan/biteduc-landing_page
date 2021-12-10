@@ -1,0 +1,11 @@
+ScrollReveal().reveal('.section__content_img',  { delay: 500 });
+ScrollReveal().reveal('.section_content_text',  { delay: 500 });
+ScrollReveal().reveal('.section__title',  { delay: 500 });
+ScrollReveal().reveal('.underline',  { delay: 500 });
+ScrollReveal().reveal('.section__subtitle',  { delay: 500 });
+ScrollReveal().reveal('.header__wrap__img');
+ScrollReveal().reveal('.header__text');
+ScrollReveal().reveal('.header__nav');
+ScrollReveal().reveal('.start__button',  { delay: 500 });
+ScrollReveal().reveal('.contact__item',  { delay: 500 });
+ScrollReveal().reveal('footer p',  { delay: 500 });
