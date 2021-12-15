@@ -236,3 +236,7 @@ footer{
 .fa-twitter:hover {
     color: deepskyblue
 }
+
+.wow {
+    visibility: visible !important;
+}

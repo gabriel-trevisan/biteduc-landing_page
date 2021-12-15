@@ -11,41 +11,41 @@
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/fontawesome/css/all.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
     <header class="header">
         <div class="container">
             <nav class="row header__nav">
-                <a href="/" class="header__logo">
+                <a href="/" class="header__logo" data-aos="fade-right">
                     <img src="images/logo.png" class="header__img" alt="Logo BITEDUC">
                 </a>
-                <a href="#" class="button-secondary">Login</a>
+                <a href="#" class="button-secondary" data-aos="fade-left">Login</a>
             </nav>
             <div class="row header__hero">
-                <div class="col header__text">
+                <div class="col header__text" data-aos="fade-right">
                     <h1 class="header__title">Invista no seu futuro!</h1>
-                    <p class="header__description">Aprenda novas tecnologias de forma <strong>gratuita</strong>, ajude a
+                    <p class="header__description wow animate__animated animate__fadeInLeft">Aprenda novas tecnologias de forma <strong>gratuita</strong>, ajude a
                         comunidade e ganhe tokens.</p>
                     <a class="button-primary" href="#">Iniciar</a>
                 </div>
-                <div class="col header__wrap__img">
+                <div class="col header__wrap__img" data-aos="fade-left">
                     <img src="images/hero.jpg" class="header__img" alt="Estudante feliz">
                 </div>
             </div>
         </div>
     </header>
     <section class="section">
-        <h1 class="section__title">Sobre</h1>
-        <hr class="underline w-50">
+        <h1 class="section__title" data-aos="fade-down">Sobre</h1>
+        <hr class="underline w-50" data-aos="fade-down">
         <div class="container">
             <div class="section__wrap">
                 <div class="row section__content">
-                    <div class="col section__content_img">
+                    <div class="col section__content_img" data-aos="fade-right">
                         <img src="images/community.png" alt="Comunidade de pessoas interagindo entre si" />
                     </div>
-                    <div class="col section_content_text">
+                    <div class="col section_content_text" data-aos="fade-left">
                         <p>A <strong>BITEDUC©</strong> é uma plataforma de ensino a distância. O seu objetivo é unir
                             pessoas que tenham interesses em ensinar ou aprender as seguintes tecnologias:</p>
                         <ul>
@@ -57,14 +57,14 @@
                     </div>
                 </div>
                 <div class="row section__content">
-                    <div class="col section_content_text">
+                    <div class="col section_content_text" data-aos="fade-right">
                         <p>A plataforma foi desenvolvida para ser livre. Isso significa que o acesso aos
                             conteúdos são de forma gratuita, impedindo qualquer barreira de acesso a educação.
                         </p>
                         <p>Para acessar a plataforma, basta apenas ter um smartphone/tablet/computador com acesso a
                             internet.</p>
                     </div>
-                    <div class="col section__content_img">
+                    <div class="col section__content_img" data-aos="fade-left">
                         <img src="images/world.png" alt="Mundo conectado através da internet" />
                     </div>
                 </div>
@@ -72,15 +72,15 @@
         </div>
     </section>
     <section class="how section">
-        <h1 class="section__title">Como funciona?</h1>
-        <hr class="underline w-170">
+        <h1 class="section__title" data-aos="fade-down">Como funciona?</h1>
+        <hr class="underline w-170" data-aos="fade-down">
         <div class="container">
             <div class="section__wrap">
                 <div class="row section__content">
-                    <div class="col section__content_img">
+                    <div class="col section__content_img" data-aos="fade-left">
                         <img src="images/solution.png" alt="Pessoa pensando em uma solucação" />
                     </div>
-                    <div class="col section_content_text">
+                    <div class="col section_content_text" data-aos="fade-right">
                         <p>Se você é expert em alguma tecnologia que possa agregar valor para outras pessoas, você
                             pode se cadastrar na plataforma e começar a produzir conteúdo. Em troca, você vai ganhar
                             tokens que podem ser comercializados.</p>
@@ -94,15 +94,15 @@
         </div>
     </section>
     <section class="token section">
-        <h1 class="section__title">Token</h1>
-        <hr class="underline w-50">
+        <h1 class="section__title" data-aos="fade-down">Token</h1>
+        <hr class="underline w-50" data-aos="fade-down">
         <div class="container">
             <div class="section__wrap">
                 <div class="row section__content">
-                    <div class="col section__content_img">
+                    <div class="col section__content_img" data-aos="fade-left">
                         <img src="images/token.png" alt="Token" />
                     </div>
-                    <div class="col section_content_text">
+                    <div class="col section_content_text" data-aos="fade-right">
                         <p>O Token <strong>BITEDUC©</strong> é baseado no padrão ERC-20, o mesmo roda na blockchain
                             da Ethereum.
                             Este token funciona como um método de pagamento (recompensa) para criadores de conteúdo
@@ -115,12 +115,12 @@
         </div>
     </section>
     <section class="start section">
-        <h1 class="section__title">Inicie agora!</h1>
-        <hr class="underline w-130">
+        <h1 class="section__title" data-aos="fade-down">Inicie agora!</h1>
+        <hr class="underline w-130" data-aos="fade-down">
         <div class="container">
-            <div class="section__wrap">
+            <div class="section__wrap" data-aos="fade-left">
                 <h3 class="section__subtitle">Venha fazer parte da nossa comunidade.</h3>
-                <a class="button-primary start__button" href="#">Iniciar</a>
+                <a class="button-primary start__button wow animate__animated animate__fadeInRight" href="#">Iniciar</a>
             </div>
         </div>
     </section>
@@ -133,7 +133,7 @@
         <p>© BITEDUC 2021. Todos os direitos reservados</p>
     </footer>
 
-    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="js/main.js"></script>
 </body>
 
